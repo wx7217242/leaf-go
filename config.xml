@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <zookeeper_host>192.168.0.179:2183,192.168.0.179:2182,192.168.0.179:2181</zookeeper_host> <!-- zk集群地址，以英文逗号分隔 -->
+    <leaf_host>192.168.0.106</leaf_host> <!-- 绑定的主机ip -->
+    <http_port>8090</http_port> <!-- 提供id服务的端口 -->
+    <rpc_service_port>9090</rpc_service_port> <!-- rpc服务的端口 -->
+    <time_threshold_ms>1000</time_threshold_ms> <!-- 时间差阈值，以毫秒为单位，在此时间差内，允许启动 -->
+    <log_level>debug</log_level> <!-- 日志的级别，有debug、trace、info、error、warn -->
+    <log_name>leaf.log</log_name> <!-- 日志文件，为空默认输出到控制台 -->
+</config>
