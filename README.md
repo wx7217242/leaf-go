@@ -10,9 +10,10 @@
 4. github.com/astaxie/beego/logs
 
 #### 使用说明
-1. 修改config.xml
-2. go build server.go
-3. ./server 
+1. go get github.com/wx7217242/leaf-go
+2. go build github.com/wx7217242/leaf-go
+3. 修改config.xml
+3. ./leaf-go 
 
 #### 参与贡献
 
